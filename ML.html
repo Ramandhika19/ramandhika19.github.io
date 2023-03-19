@@ -134,7 +134,7 @@
                         </a>
                     </li>
                     
-                    <li class="menu active">
+                    <li class="menu">
                         <a href="bmi.html" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
                                 <i data-feather="coffee"></i>
@@ -152,8 +152,8 @@
                             </div>
                         </a>
                     </li>
-
-                    <li class="menu">
+                    
+                    <li class="menu active">
                         <a href="ML.html" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
                                 <i data-feather="message-circle"></i>
@@ -169,71 +169,24 @@
         <!--  END SIDEBAR  -->
         
         <!--  BEGIN CONTENT AREA  -->
-        <div id="content" class="main-content" style="background: linear-gradient(#7d30cb 35%,
-        #304aca);">
-            <div class="layout-px-spacing">
-
-                <div class="middle-content container-xxl p-0">
-
-                    <!-- BREADCRUMB -->
-                    <div class="page-meta">
-                        <nav class="breadcrumb-style-one" aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item" style="color: white;">BMI</a></li>
-                                <li class="breadcrumb-item" aria-current="page" style="color: white;">Tinggi Badan & Berat Badan</li>
-                            </ol>
-                        </nav>
-                    </div>
-                    <!-- /BREADCRUMB -->
-    
-                    <div class="row layout-top-spacing">
-
-
-                        <div class="col-md-6 col-xs-12 card p-5 mt-2">
-                                <div class="form-group mb-2">
-                                    <label for="berat">Berat Badan</label>
-                                    <input type="number" class="form-control " id="berat">
-                                </div> 
-
-                                <div class="form-group mb-2">
-                                    <label for="exampleFormControlInput1">Tinggi Badan</label>
-                                    <input type="number" class="form-control" id="tinggi">
-                                </div>
-
-                                <button onclick="MyFunction()" class="btn btn-primary">Hasil</button>
-                                
-                        </div> 
-                        <div class="col-md-6 col-xs-12 card p-5 text-center mt-2">
-                            <div class="info-box-1 color-2">
-                                <div class="info-box-1-icon-wrapper">
-                                    <div class="info-box-1-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-                                    </div>
-                                </div>
-                                <div class="info-box-1-content-wrapper">
-                                    <h3 class="info-box-1-title">Hasil BMI</h3>
-                                    <div class="info-box-1-content" id="bmi"></div>
-                                </div>
-                                <a class="info-box-1-button" href="#">...</a>
-                            </div>
-                        </div>
-    
-                    </div>
-
-                </div>
-
+    <div class="d-flex justify-content-center">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-
-            <div class="footer-wrapper">
-                <div class="footer-section f-section-1">
-                    <p class="">Copyright © <span class="dynamic-year">2022</span> <a target="_blank" href="https://designreset.com/cork-admin/">DesignReset</a>, All rights reserved.</p>
-                </div>
-                <div class="footer-section f-section-2">
-                    <p class="">Coded with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></p>
-                </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            
-        </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
         <!--  END CONTENT AREA  -->
 
     </div>

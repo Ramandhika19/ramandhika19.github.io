@@ -19,6 +19,7 @@
     <link href="layouts/vertical-light-menu/css/dark/plugins.css" rel="stylesheet" type="text/css" />
 
     <script src="https://unpkg.com/feather-icons"></script>
+    <script src="belajar.js"></script>
 
     <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Bootstrap -->
@@ -215,9 +216,30 @@
                         </div>
                     </a>
                 </li>
+
+                <li class="menu">
+                    <a href="ML.html" aria-expanded="false" class="dropdown-toggle">
+                        <div class="">
+                            <i data-feather="message-circle"></i>
+                            <span>Ga Tau</span>
+                        </div>
+                    </a>
+                </li>
             </ul>
 
         </nav>
+
+        <form name="from">
+            <div style="border: 1px solid white; background: white; width: 700px; height: 500px; position: absolute; margin-left: 700px; bottom: 200px;">
+                Masukan Nama Anda :<input type="text" name="namaa"><br>
+                Masukan Tgl Lahir :<input type="text" name="tgll"><br>
+                <button class="btn btn-dark mb-2 me-4" name="data">Submit</button>
+            </div>
+            <div>
+                Nama Anda Adalah    :<input type="text" nama="ranama">
+                Anda Lahir Tanggal  :<input type="text" nama="rtgl">
+            </div>
+        </form>
 
     </div>
     <script src="src/plugins/src/global/vendors.min.js"></script>

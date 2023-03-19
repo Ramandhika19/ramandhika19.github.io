@@ -16,3 +16,12 @@ function MyFunction(){
   }
 
 }
+
+function data(){
+  nama = document.form.namaa.value
+  tgl = document.from.tgll
+  alamat = document.fr
+
+  document.from.ranama.value = nama
+  document.from.rtgl.value = tgl
+}
